@@ -1,0 +1,118 @@
+Frame model : merge = 48 bytes, quick = 48 bytes per recursive call
+Time = average of 300 runs (copy time excluded)
+
+Data Size : 1000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      8703           0.0410      4528
+Quick (First)   10280          0.0251      1008
+Quick (Random)  10244          0.0316      960
+Quick (Median3) 10583          0.0266      816
+
+Data Size : 2000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      19425          0.1073      8576
+Quick (First)   26932          0.0793      1440
+Quick (Random)  24823          0.0942      1152
+Quick (Median3) 25052          0.0836      912
+
+Data Size : 4000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      42837          0.2498      16624
+Quick (First)   53915          0.1953      1296
+Quick (Random)  56058          0.2158      1344
+Quick (Median3) 51864          0.2036      960
+
+Data Size : 8000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      93643          0.5549      32672
+Quick (First)   139001         0.4450      1584
+Quick (Random)  116967         0.4809      1344
+Quick (Median3) 121479         0.4630      1200
+
+Data Size : 16000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      203274         1.2419      64720
+Quick (First)   264999         0.9489      1680
+Quick (Random)  285830         1.0753      1584
+Quick (Median3) 256485         1.0659      1248
+
+Data Size : 20000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      260798         1.5652      80768
+Quick (First)   328782         1.2240      1584
+Quick (Random)  369428         1.3255      1776
+Quick (Median3) 320112         1.2808      1248
+
+All results sorted correctly : YES
+
+------------------------------------
+
+[Supplementary] Average over 100 random datasets
+
+Data Size : 1000
+
+Algorithm       Avg.Comparisons   Avg.Memory(Bytes)
+--------------------------------------------------
+Merge Sort      8702.7            4528.0
+Quick (First)   10919.0           1042.1
+Quick (Random)  10897.7           1041.6
+Quick (Median3) 10815.2           809.8
+
+Data Size : 2000
+
+Algorithm       Avg.Comparisons   Avg.Memory(Bytes)
+--------------------------------------------------
+Merge Sort      19410.1           8576.0
+Quick (First)   24890.4           1200.0
+Quick (Random)  24545.2           1193.8
+Quick (Median3) 23965.3           894.7
+
+Data Size : 4000
+
+Algorithm       Avg.Comparisons   Avg.Memory(Bytes)
+--------------------------------------------------
+Merge Sort      42818.8           16624.0
+Quick (First)   55354.7           1305.6
+Quick (Random)  55000.8           1323.8
+Quick (Median3) 52726.8           989.8
+
+Data Size : 8000
+
+Algorithm       Avg.Comparisons   Avg.Memory(Bytes)
+--------------------------------------------------
+Merge Sort      93640.3           32672.0
+Quick (First)   121698.0          1458.7
+Quick (Random)  120198.8          1442.9
+Quick (Median3) 115534.6          1112.2
+
+Data Size : 16000
+
+Algorithm       Avg.Comparisons   Avg.Memory(Bytes)
+--------------------------------------------------
+Merge Sort      203279.6          64720.0
+Quick (First)   264082.1          1585.4
+Quick (Random)  262949.9          1570.1
+Quick (Median3) 248592.6          1198.6
+
+Data Size : 20000
+
+Algorithm       Avg.Comparisons   Avg.Memory(Bytes)
+--------------------------------------------------
+Merge Sort      260913.0          80768.0
+Quick (First)   338593.1          1626.7
+Quick (Random)  340238.2          1644.5
+Quick (Median3) 319084.2          1235.5
+
+All supplementary results sorted correctly : YES
